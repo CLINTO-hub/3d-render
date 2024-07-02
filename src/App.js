@@ -26,7 +26,7 @@
       <div className="App">
         <div className="controls">
           <div className="control">
-            <button onClick={() => setShowBox(!showBox)}>Toggle Box</button>
+            <button onClick={() => setShowBox(!showBox)} style={{ backgroundColor: showBox ? 'blue' : 'red', color: 'white' }}>Toggle Box</button>
             <label>Rotation Speed:</label>
             <div className="range-number-container">
             <input
@@ -48,7 +48,7 @@
             </div>
           </div>
           <div className="control">
-            <button onClick={() => setShowTorus(!showTorus)}>Toggle Torus</button>
+            <button onClick={() => setShowTorus(!showTorus)} style={{ backgroundColor: showTorus ? 'blue' : 'red', color: 'white' }}>Toggle Torus</button>
             <label>Rotation Speed:</label>
             <div className="range-number-container">
             <input
@@ -70,7 +70,7 @@
             </div>
           </div>
           <div className="control">
-            <button onClick={() => setShowDodecahedron(!showDodecahedron)}>Toggle Dodecahedron</button>
+            <button onClick={() => setShowDodecahedron(!showDodecahedron)} style={{ backgroundColor: showDodecahedron ? 'blue' : 'red', color: 'white' }}>Toggle Dodecahedron</button>
             <label>Rotation Speed:</label>
             <div className="range-number-container">
             <input

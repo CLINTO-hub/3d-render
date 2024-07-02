@@ -5,15 +5,18 @@
   justify-content: center;
   background-color: rgb(40, 38, 38);
   height: 100vh;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
 .controls {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  max-width: 100%;
   margin-bottom: 20px;
+  padding-bottom: 20px;
   background-color: white;
-  padding: 20px;
 }
 
 .control {
@@ -24,6 +27,7 @@
   align-items: flex-start;
   padding: 10px;
   margin-top: 20px; 
+  max-width: 100%;
 }
 
 .range-number-container {
@@ -41,6 +45,7 @@ button {
 }
 
 canvas {
-  width: 100%;
+  width: 99%;
   height: 500px;
+  max-width: 100%;
 }
