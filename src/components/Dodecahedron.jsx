@@ -11,7 +11,7 @@ function Dodecahedron({ rotationSpeed }) {
 
   return (
     <mesh ref={ref} position={[6, 0, 0]}>
-      <dodecahedronGeometry args={[1,0]} />
+      <dodecahedronGeometry args={[.5]} />
       <meshStandardMaterial color="white" />
     </mesh>
   );
